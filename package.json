@@ -1,5 +1,5 @@
 {
-  "name": "ws-native",
+  "name": "ws-socketio",
   "version": "0.0.1",
   "description": "WebSockets",
   "main": "wsserver.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prasawd/node-ws-raw.git"
+    "url": "git+https://github.com/prasawd/prasawd.github.io"
   },
   "keywords": [],
-  "author": "Prasad SS Mamidi",
+  "author": "PM",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prasawd/ws-native"
+    "url": "https://github.com/prasawd/prasawd.github.io"
   },
-  "homepage": "https://github.com/prasawd/ws-native#readme",
+  "homepage": "https://github.com/prasawd/prasawd.github.io#readme",
   "dependencies": {
     "express": "^4.16.4",
     "socket.io": "^2.3.0"
