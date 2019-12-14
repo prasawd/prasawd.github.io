@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>WebSocket impmentation Socket.io</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="ws-socketio.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"
+            integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <h1>Socket IO</h1>
+        <p>Hello Sockets from TheKING!</p>
+        <div class="container">
+            <button id="BTN_TESTCONNECTION" class="d-none">Test Connection</button>
+
+            <div class="rowx">
+                <br />
+                <button id="BTN_CONNECT" class="btn btn-primary">Connect</button>
+                <button id="BTN_DISCONNECT" class="btn btn-primary">Disconnect</button>
+            </div>
+            <div class="rowx">
+                <br />
+                <input type="text" id="TXT_NAME" placeholder="Name" value="Prasad" />
+                <br /><br />
+                <input type="text" id="TXT_SEND" placeholder="Type text here..." class="w-75" value="Sample message" />
+                <button id="BTN_SEND">Send</button>
+            </div>
+            <div class="chat-area">
+                <div id="OUTPUT" class="rowx"></div>
+                <div id="SIGNAL"></div>
+            </div>
+        </div>
+        <script src="ws-socketio-vanillajs.js"></script>
+        <!-- <script>$(WS.init())</script> -->
+    </body>
+
+</html>

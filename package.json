@@ -1,0 +1,27 @@
+{
+  "name": "ws-native",
+  "version": "0.0.1",
+  "description": "WebSockets",
+  "main": "wsserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasawd/node-ws-raw.git"
+  },
+  "keywords": [],
+  "author": "Prasad SS Mamidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasawd/ws-native"
+  },
+  "homepage": "https://github.com/prasawd/ws-native#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

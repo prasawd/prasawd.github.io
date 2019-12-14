@@ -1,0 +1,11 @@
+body{
+    margin: 10px;
+}
+.rowx{
+    margin: 5px 0;
+}
+#OUTPUT{
+    border: 1px solid #ccc;
+    height: 360px;
+    overflow: auto;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <meta charset="utf-8" />
+    <title>WebSocket Test</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"
+        integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+    <body>
+        <h2>WebSocket Test</h2>
+
+        <div>
+            <button id="BTN_TESTCONNECTION" class="d-none">Test Connection</button>
+            <br />
+            <button id="BTN_CONNECT">Connect</button>
+            <button id="BTN_DISCONNECT">Disconnect</button>
+            <br />
+            <input type="text" id="TXT_SEND" />
+            <button id="BTN_SEND">Send</button>
+
+        </div>
+        <div id="output"></div>
+        <script src="ws.js"></script>
+        <script>$(WS.init())</script>
+    </body>
+
+</html>
